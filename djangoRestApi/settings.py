@@ -126,8 +126,8 @@ SOCIALACCOUNT_PROVIDERS = {
 
 SITE_ID = 3
 
-LOGIN_REDIRECT_URL = 'oauth_app/logged_in/'  # need to fix
-LOGOUT_REDIRECT_URL = '/oauth_app'  # need to fix
+LOGIN_REDIRECT_URL = 'oauth_app/logged_in/'
+LOGOUT_REDIRECT_URL = '/oauth_app'
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/

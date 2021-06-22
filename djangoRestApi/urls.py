@@ -26,4 +26,5 @@ urlpatterns = [
     path('register/', RegisterView.as_view(), name='register'),
     path('logout', LogoutView.as_view()),
     path('oauth_app', include('oauth_app.urls')),
+    path('accounts/', include('allauth.urls')),
 ]
