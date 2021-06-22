@@ -14,5 +14,4 @@ Need to install:
 
 
 1. pip install django
-2. 
-3. pip install django-allauth
+2. pip install django-allauth
